@@ -8,8 +8,8 @@ void setup() {
   Serial.begin(9600);
   delay(1000);
   pinMode(A2, INPUT_PULLUP);
-  你的班級學號_Servo1.attach(A4);
-  你的班級學號_Servo2.attach(A3);
+  你的班級學號_Servo1.attach(A4); //check the pin if use wokwi.com
+  你的班級學號_Servo2.attach(A3); //check the pin if use wokwi.com
 }
 
 void loop() {
